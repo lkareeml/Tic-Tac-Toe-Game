@@ -1,0 +1,75 @@
+body{
+  background-color:black;
+}
+.q{
+  line-height:100px;
+  text-align:center;
+  margin:auto;
+  margin-top:150px;
+  background-color:yellow;
+  border-radius:20px;
+  box-shadow:5px 5px 3px red;
+  width:400px;
+  height:200px;
+}
+#xbut,#obut,.box{
+   cursor:pointer;
+}
+.xobutton{
+  margin:auto;
+  margin-right:20px;
+  margin-left:20px;
+  width:60px;
+  height:50px;
+}
+#xobox{
+  margin:auto;
+  margin-top:30px;
+  max-width:500px;
+  max-height:500px;
+  padding:5px;
+}
+.box{ 
+  background:red;
+  margin:4px;
+  width: 30.8%;
+  height: 150px;
+  border:2px solid red;
+  float: left;
+  text-align:center;
+  color:black;
+  font-size:70px;
+  line-height:150px;
+}
+
+
+
+
+.hide{
+  display:none;
+}
+
+.fade-out{
+  animation: fadeOut 3s;
+}
+@keyframes fadeOut{
+  from{
+    opacity :1;
+  }
+  to{
+    opacity:0;
+  }
+}
+
+
+.fade-in{
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn{
+  from{
+    opacity :0;
+  }
+  to{
+    opacity:1;
+  }
+}
